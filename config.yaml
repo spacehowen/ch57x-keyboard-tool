@@ -1,0 +1,15 @@
+model: ch57x-1
+orientation: normal
+rows: 3
+columns: 1
+knobs: 1
+
+layers:
+  - buttons:
+      - ["prev"]
+      - ["play"]
+      - ["next"]
+    knobs:
+      - ccw: "volumedown"
+        press: "mute"
+        cw: "volumeup"
